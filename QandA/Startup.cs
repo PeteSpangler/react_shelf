@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DbUp;
+using QandA.Data;
 
 namespace QandA
 {
@@ -43,6 +44,10 @@ namespace QandA
                 upgrader.PerformUpgrade();
             }
             services.AddControllers();
+            services.AddScoped<IDataRepository,
+                DataRepository > ();
+            services.AddMemoryCache();
+            services.AddSingleton<IQuestionCache, QuestionCache>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "QandA", Version = "v1" });
