@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\backend\\QandA\\QandA.csproj": {}
+    "C:\\Users\\peter\\OneDrive\\Desktop\\GitHub\\react_shelf\\QandA\\QandA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\backend\\QandA\\QandA.csproj": {
+    "C:\\Users\\peter\\OneDrive\\Desktop\\GitHub\\react_shelf\\QandA\\QandA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\backend\\QandA\\QandA.csproj",
+        "projectUniqueName": "C:\\Users\\peter\\OneDrive\\Desktop\\GitHub\\react_shelf\\QandA\\QandA.csproj",
         "projectName": "QandA",
-        "projectPath": "C:\\Users\\dell\\Desktop\\backend\\QandA\\QandA.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\backend\\QandA\\obj\\",
+        "projectPath": "C:\\Users\\peter\\OneDrive\\Desktop\\GitHub\\react_shelf\\QandA\\QandA.csproj",
+        "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\peter\\OneDrive\\Desktop\\GitHub\\react_shelf\\QandA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -47,6 +47,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
