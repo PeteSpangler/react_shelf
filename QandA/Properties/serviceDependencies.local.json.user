@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-02-19T21:02:13.1442865Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-02-19T20:03:42.7703892Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "d6d61d55-798f-4d3d-ad8e-af98e31dba1d"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "SpangWeb"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "d6d61d55-798f-4d3d-ad8e-af98e31dba1d"
+    }
+  }
+}
