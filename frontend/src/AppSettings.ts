@@ -1,4 +1,9 @@
-export const server = 'http://localhost:44371';
+export const server =
+  process.env.REACT_APP_ENV === 'production'
+    ? 'https://qanda2021testback.azurewebsites.net/'
+    : process.env.REACT_APP_ENV === 'staging'
+    ? 'https://qanda2021testback.staging.azurewebsites.net/'
+    : 'http://localhost:47731';
 
 export const webAPIUrl = `${server}/api`;
 
